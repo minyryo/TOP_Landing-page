@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+* {
+    margin-block-start: 1vh;
+    margin-block-end: 1vh;
+}
+header, footer{
+    background-color: #1f2937;
+    padding: 2% 10% 2% 10%;
+}
+
+div[class*="wrapper"] {
+    padding: 5% 10% 5% 10%; 
+}
+#header-nav, .sign-up-wrapper, .header-content-container {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.header-content-container{
+    padding: 5% 0 5% 0;
+
+}
+#header-nav {
+    justify-content: space-between;
+    align-items: baseline;
+}
+#header-logo{
+    font-size: 24px;
+    color: #f9faf8 ;
+    min-width: 200px;
+
+}
+nav a, .header-content p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+nav li {
+    display: inline;
+}
+nav li a:hover, nav li a.current {
+    color: #000000;
+}
+.header-content, .header-content-img {
+    flex: 1 2 0;
+}
+.header-content h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8
+}
+.header-content-img{
+    background-color: grey;
+    color:  #e5e7eb;
+}
+div[class*="information"]{
+    padding: 2% 0 2%;
+}
+.information-wrapper, .card {
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+    
+}
+.information-content {
+    display: flex;
+    flex-flow: row;
+    column-gap: 5vh;
+}
+.card{
+    width: 15vh;
+    text-align: center;
+    color: #1f2937;
+
+}
+.card-img{
+    width: 15vh;
+    height: 15vh;
+    border: 3px #3882f6 solid;
+    border-radius: 1vh;
+    margin-bottom: 2px;
+}
+
+.quote-wrapper{
+    background-color: #e5e7eb;
+    padding: 5% 0 5% 0;
+    font-weight: bold;
+}
+.quote-wrapper p{
+    text-align: right;
+    padding:0 10% 0 10%;
+    
+}
+#quote-main{
+    font-size: 36px;
+    font-weight: normal;
+    font-style: italic;
+    color: #1f2937;
+    text-align: left;
+}
+.sign-up-wrapper {
+    background-color: #3882f6;
+    color: #f9faf8 ;
+    margin: 5% 10% 5% 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    padding: 2px;
+    width: 10vh;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    border-color: none;
+    cursor: pointer;
+}
+button:hover{
+    color:black;
+    border-color: black;
+ }
+ 
+.signup-button button {
+    border: #f9faf8 1px solid;
+}
+footer {
+   color: #e5e7eb;
+   text-align: center;
+}
